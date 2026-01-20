@@ -1,0 +1,72 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hero {
+  background: #f8f9fb;
+}
+
+.custom-soft-blue {
+    color: #0d6efd; 
+}
+
+.hero-avatar {
+  background: radial-gradient(
+    circle,
+    #0d6efd 0%,
+    #0d6efd 55%,
+    transparent 56%
+  );
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.img-fluid {
+  width: 480px;  
+  height: auto;  
+}
+
+.social-icon {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--bs-primary);
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--bs-primary);
+    color:white;
+}
+
+.role-title {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.role-title::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #0d6efd;
+  display: block;
+  margin: 0.4rem auto 0;
+  border-radius: 2px;
+}
+
+.hero p.text-uppercase {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+  color: #6c757d !important;
+}
+
+
+
